@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+button{
+    background:  #FFC107;
+    color:black;
+    border-color: #FFC107;
+    border-radius: 5px;
+}

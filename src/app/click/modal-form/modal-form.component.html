@@ -1,0 +1,46 @@
+
+<!-- INICIO FORMULARIO-->
+ <form [formGroup]="formDatos" (ngSubmit)="submit()" class="px-4 py-3 ">
+
+    <div class="header">
+        <!--  -->
+        <h6><button class="btn-cerrar close" (click)="close()">X</button></h6>   
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name" formControlName="name" required>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Completa el campo.</div>
+      </div>
+    
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" formControlName="email"required>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Completa el campo.</div>
+      </div>
+    
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="description" required></textarea>
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Completa el campo.</div>
+      </div>
+    
+      <div>
+        <button type="submit">SEND</button>
+       <!-- <app-end-form [childResults]="resultado"></app-end-form> -->
+      </div> 
+    
+    </form> 
+
+    <div class="alert alert-success" role="alert">
+        {{resultado}}
+    </div>
+    
+   
+   
+    <!-- FIN FORMULARIO-->
+
+    

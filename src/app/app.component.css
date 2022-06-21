@@ -1,0 +1,147 @@
+
+.container-fluid{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    letter-spacing: 2px;
+}
+
+.items{
+    justify-content: center;   
+}
+
+.card{
+    margin: 25px;
+    border-color: #FFC107;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-img {
+    width: 108%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+}
+
+.card-title{
+    color:black;
+}
+
+.description{
+    color: black;
+}
+
+.color-boton{
+    border-color: black;
+    background-color: black !important;
+}
+
+
+.container{
+    margin: 0 auto;
+    display: block;
+}
+
+
+#automoviles{
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.item {
+    height: 100px !important;
+}
+
+
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+footer i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+footer{
+    bottom: 0;
+    min-height: 100px;
+    line-height: 100px;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    font-size: 20x;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+
+@media (max-width: 720px) {
+    
+    .container-fluid{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-start;
+    }
+
+    .navbar-toggler{
+        margin-top: 0px;
+    }
+
+    input{
+        margin-right: -0.5rem !important;
+        padding: 10px;
+        margin-top: 39px;
+    }
+
+    button{
+        margin-top: 39px;
+    }
+
+    .items{
+        width: 500px;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+       margin: 10px;
+    }
+
+    .card{
+        margin: 20px;
+    }
+
+    .card-img {
+        width: 108%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.25rem;
+    }
+
+    .item {
+        height: 112px !important;
+        width: 340px;
+    }
+
+}

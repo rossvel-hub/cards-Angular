@@ -1,0 +1,64 @@
+{
+    "automoviles": [
+        {
+            "id": 1,
+            "name": "Mazda",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 2,
+            "name": "Tesla",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 3,
+            "name": "Subaru",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 4,
+            "name": "Porsche",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 5,
+            "name": "Honda",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 6,
+            "name": "lexus",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 7,
+            "name": "Toyota",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 8,
+            "name": "Chrysler",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 9,
+            "name": "Buick",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 10,
+            "name": "Hyundai",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 11,
+            "name": "Audi",
+            "description": "Marca de automóviles"
+        },
+        {
+            "id": 12,
+            "name": "infiniti",
+            "description": "Marca de automóviles"
+        }
+    ]
+}
